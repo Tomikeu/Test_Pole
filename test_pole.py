@@ -45,55 +45,25 @@ while True:
         print("\n------------------------------------------------------------------")
         kosik.append("Ipad")
         zbozi.pop(0)
-        m = input("Chcete pokračovat v nákupu ?")
-        if m.lower == "ano":
-            print("Dobře")
-            print("------------------------------------------------------------------")
-        else:
-            break
     elif n == "Macbook" or "macbook" or "2" or "2.":
         animace1()
         print("\n------------------------------------------------------------------")
         kosik.append("Macbook")
         zbozi.pop(1)
-        m = input("Chcete pokračovat v nákupu ?")
-        if m.lower == "ano":
-            print("Dobře")
-            print("------------------------------------------------------------------")
-        else:
-            break
     elif n == "Iphone" or "iphone" or "3" or "3.":
         animace1()
         print("\n------------------------------------------------------------------")
         kosik.append("Iphone")
         zbozi.pop(2)
-        m = input("Chcete pokračovat v nákupu ?")
-        if m.lower == "ano":
-            print("Dobře")
-            print("------------------------------------------------------------------")
-        else:
-            break
     elif n == "Imac" or "imac" or "4" or "4.":
         animace1()
         print("\n------------------------------------------------------------------")
         kosik.append("Imac")
         zbozi.pop(3)
-        m = input("Chcete pokračovat v nákupu ?")
-        if m.lower == "ano":
-            print("Dobře")
-            print("------------------------------------------------------------------")
-        else:
-            break
     elif n == "Airpods":
         animace1()
         print("\n------------------------------------------------------------------")
         kosik.append("Airpods")
         zbozi.pop(4)
-        m = input("Chcete pokračovat v nákupu ?")
-        if m.lower == "ano":
-            print("Dobře")
-            print("------------------------------------------------------------------")
-        else:
-            break
     else:
         print("Něco je špatně")
